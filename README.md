@@ -6,11 +6,11 @@ We use the AdaIN operator to make our image-transformation network both content-
 
 We also use a noise-resilient loss function to train a temporally-consistent style transfer algorithm that can operate in real-time, by stylizing each frame independently rather than using 3D convolutions or optical flow, which are computationally expensive and time consuming.
 
-See 'test.py' and 'train.py' for information on how to train and test our algorithm, respectively.
+See `test.py` and `train.py` for information on how to train and test our algorithm, respectively.
 
 ## Results & More Information
 
-Our approach effectively stylizes videos with any combination of style and content inputs and preserves the temporal consistency and quality of the original inputs. See 'Final Report.pdf' and 'Final Poster.pdf' for quantitative and qualitative validations of our approach.
+Our approach effectively stylizes videos with any combination of style and content inputs and preserves the temporal consistency and quality of the original inputs. See `Final Report.pdf` and `Final Poster.pdf` for quantitative and qualitative validations of our approach.
 
 ## Contributions
 Both authors (Michelle Bao, Ankush Swarnakar) contributed to the project equally and worked on developing the architecture and evaluation metrics. Our work is highly inspired by the adaptive instance normalization work of Huang et al. in "Arbitrary Style Transfer in Real-time with Adaptive Instance Normalization" and Mur.AI's video style transfer work in "Stabilizing neural style-transfer for video."
